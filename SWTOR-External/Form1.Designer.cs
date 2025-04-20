@@ -1032,7 +1032,7 @@
             // box_infReach
             // 
             this.box_infReach.AutoSize = true;
-            this.box_infReach.Cursor = System.Windows.Forms.Cursors.No;
+            this.box_infReach.Cursor = System.Windows.Forms.Cursors.Default;
             this.box_infReach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.box_infReach.Location = new System.Drawing.Point(116, 29);
             this.box_infReach.Name = "box_infReach";
