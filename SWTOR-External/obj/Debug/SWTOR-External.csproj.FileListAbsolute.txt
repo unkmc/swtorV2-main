@@ -20,3 +20,10 @@ C:\Users\nightfall\Documents\C#\!MyProjects\swtorV2-main\SWTOR-External\obj\Debu
 C:\Users\nightfall\Documents\C#\!MyProjects\swtorV2-main\SWTOR-External\obj\Debug\SWTOR-External.csproj.CoreCompileInputs.cache
 C:\Users\nightfall\Documents\C#\!MyProjects\swtorV2-main\SWTOR-External\obj\Debug\SWTOR-External.exe
 C:\Users\nightfall\Documents\C#\!MyProjects\swtorV2-main\SWTOR-External\obj\Debug\SWTOR-External.pdb
+D:\github\swtorV2-main\SWTOR-External\obj\Debug\SWTOR-External.csproj.AssemblyReference.cache
+D:\github\swtorV2-main\SWTOR-External\obj\Debug\SWTOR_External.Form1.resources
+D:\github\swtorV2-main\SWTOR-External\obj\Debug\SWTOR_External.Properties.Resources.resources
+D:\github\swtorV2-main\SWTOR-External\obj\Debug\SWTOR-External.csproj.GenerateResource.cache
+D:\github\swtorV2-main\SWTOR-External\obj\Debug\SWTOR-External.csproj.CoreCompileInputs.cache
+D:\github\swtorV2-main\SWTOR-External\obj\Debug\SWTOR-External.exe
+D:\github\swtorV2-main\SWTOR-External\obj\Debug\SWTOR-External.pdb

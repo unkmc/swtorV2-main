@@ -1,1 +1,5 @@
 /.vs
+SWTOR-External/bin/Release
+SWTOR-External/obj/Release
+SWTOR-External/bin/Debug
+SWTOR-External/obj/Debug
