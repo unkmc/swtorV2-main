@@ -138,14 +138,6 @@
             this.txtbox_TPForwardKey = new System.Windows.Forms.TextBox();
             this.txtbox_TPRightKey = new System.Windows.Forms.TextBox();
             this.lbl_tpRight = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.lbl_scriptsMaintenance = new System.Windows.Forms.Label();
-            this.btn_loadScript = new System.Windows.Forms.Button();
-            this.txtbox_script = new System.Windows.Forms.TextBox();
-            this.btn_saveScript = new System.Windows.Forms.Button();
-            this.btn_runScript = new System.Windows.Forms.Button();
-            this.btn_showVars = new System.Windows.Forms.Button();
-            this.btn_example = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.lbl_credits5 = new System.Windows.Forms.Label();
             this.lbl_credits4 = new System.Windows.Forms.Label();
@@ -166,7 +158,6 @@
             this.tabPage4.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage6.SuspendLayout();
-            this.tabPage3.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -550,7 +541,6 @@
             this.materialTabControl1.Controls.Add(this.tabPage4);
             this.materialTabControl1.Controls.Add(this.tabPage2);
             this.materialTabControl1.Controls.Add(this.tabPage6);
-            this.materialTabControl1.Controls.Add(this.tabPage3);
             this.materialTabControl1.Controls.Add(this.tabPage5);
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -715,7 +705,7 @@
             // box_noCamCollision
             // 
             this.box_noCamCollision.AutoSize = true;
-            this.box_noCamCollision.Cursor = System.Windows.Forms.Cursors.No;
+            this.box_noCamCollision.Cursor = System.Windows.Forms.Cursors.Default;
             this.box_noCamCollision.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.box_noCamCollision.Location = new System.Drawing.Point(6, 140);
             this.box_noCamCollision.Name = "box_noCamCollision";
@@ -1421,111 +1411,6 @@
             this.lbl_tpRight.TabIndex = 72;
             this.lbl_tpRight.Text = "TP Right: ";
             // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.lbl_scriptsMaintenance);
-            this.tabPage3.Controls.Add(this.btn_loadScript);
-            this.tabPage3.Controls.Add(this.txtbox_script);
-            this.tabPage3.Controls.Add(this.btn_saveScript);
-            this.tabPage3.Controls.Add(this.btn_runScript);
-            this.tabPage3.Controls.Add(this.btn_showVars);
-            this.tabPage3.Controls.Add(this.btn_example);
-            this.tabPage3.Cursor = System.Windows.Forms.Cursors.No;
-            this.tabPage3.ImageKey = "feather_38326.ico";
-            this.tabPage3.Location = new System.Drawing.Point(4, 23);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(442, 389);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Scripts";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // lbl_scriptsMaintenance
-            // 
-            this.lbl_scriptsMaintenance.AutoSize = true;
-            this.lbl_scriptsMaintenance.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_scriptsMaintenance.Location = new System.Drawing.Point(13, 318);
-            this.lbl_scriptsMaintenance.Name = "lbl_scriptsMaintenance";
-            this.lbl_scriptsMaintenance.Size = new System.Drawing.Size(255, 60);
-            this.lbl_scriptsMaintenance.TabIndex = 6;
-            this.lbl_scriptsMaintenance.Text = "Out of order";
-            // 
-            // btn_loadScript
-            // 
-            this.btn_loadScript.Cursor = System.Windows.Forms.Cursors.No;
-            this.btn_loadScript.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_loadScript.Location = new System.Drawing.Point(350, 328);
-            this.btn_loadScript.Name = "btn_loadScript";
-            this.btn_loadScript.Size = new System.Drawing.Size(43, 43);
-            this.btn_loadScript.TabIndex = 5;
-            this.btn_loadScript.Text = "Load";
-            this.btn_loadScript.UseVisualStyleBackColor = true;
-            this.btn_loadScript.Visible = false;
-            // 
-            // txtbox_script
-            // 
-            this.txtbox_script.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtbox_script.Font = new System.Drawing.Font("Cascadia Code", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbox_script.Location = new System.Drawing.Point(0, 0);
-            this.txtbox_script.Multiline = true;
-            this.txtbox_script.Name = "txtbox_script";
-            this.txtbox_script.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtbox_script.Size = new System.Drawing.Size(428, 312);
-            this.txtbox_script.TabIndex = 0;
-            // 
-            // btn_saveScript
-            // 
-            this.btn_saveScript.Cursor = System.Windows.Forms.Cursors.No;
-            this.btn_saveScript.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_saveScript.Location = new System.Drawing.Point(301, 328);
-            this.btn_saveScript.Name = "btn_saveScript";
-            this.btn_saveScript.Size = new System.Drawing.Size(43, 43);
-            this.btn_saveScript.TabIndex = 4;
-            this.btn_saveScript.Text = "Save";
-            this.btn_saveScript.UseVisualStyleBackColor = true;
-            this.btn_saveScript.Visible = false;
-            // 
-            // btn_runScript
-            // 
-            this.btn_runScript.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_runScript.Cursor = System.Windows.Forms.Cursors.No;
-            this.btn_runScript.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_runScript.Location = new System.Drawing.Point(183, 328);
-            this.btn_runScript.Name = "btn_runScript";
-            this.btn_runScript.Size = new System.Drawing.Size(75, 23);
-            this.btn_runScript.TabIndex = 1;
-            this.btn_runScript.Text = "Execute";
-            this.btn_runScript.UseVisualStyleBackColor = true;
-            this.btn_runScript.Visible = false;
-            this.btn_runScript.Click += new System.EventHandler(this.btn_runScript_Click);
-            // 
-            // btn_showVars
-            // 
-            this.btn_showVars.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_showVars.Cursor = System.Windows.Forms.Cursors.No;
-            this.btn_showVars.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_showVars.Location = new System.Drawing.Point(115, 328);
-            this.btn_showVars.Name = "btn_showVars";
-            this.btn_showVars.Size = new System.Drawing.Size(38, 23);
-            this.btn_showVars.TabIndex = 3;
-            this.btn_showVars.Text = "Vars";
-            this.btn_showVars.UseVisualStyleBackColor = true;
-            this.btn_showVars.Visible = false;
-            this.btn_showVars.Click += new System.EventHandler(this.btn_showVars_Click);
-            // 
-            // btn_example
-            // 
-            this.btn_example.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_example.Cursor = System.Windows.Forms.Cursors.No;
-            this.btn_example.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_example.Location = new System.Drawing.Point(23, 328);
-            this.btn_example.Name = "btn_example";
-            this.btn_example.Size = new System.Drawing.Size(88, 23);
-            this.btn_example.TabIndex = 2;
-            this.btn_example.Text = "Example Code";
-            this.btn_example.UseVisualStyleBackColor = true;
-            this.btn_example.Visible = false;
-            this.btn_example.Click += new System.EventHandler(this.btn_example_Click);
-            // 
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.lbl_credits5);
@@ -1651,8 +1536,6 @@
             this.tabPage2.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             this.ResumeLayout(false);
@@ -1733,14 +1616,6 @@
         private System.Windows.Forms.Timer pvpTimer;
         private System.Windows.Forms.Label lbl_wFloor;
         private System.Windows.Forms.TrackBar trck_wFloor;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.Button btn_loadScript;
-        private System.Windows.Forms.TextBox txtbox_script;
-        private System.Windows.Forms.Button btn_saveScript;
-        private System.Windows.Forms.Button btn_runScript;
-        private System.Windows.Forms.Button btn_showVars;
-        private System.Windows.Forms.Button btn_example;
-        private System.Windows.Forms.Label lbl_scriptsMaintenance;
         private System.Windows.Forms.CheckBox box_noKnockback;
         private System.Windows.Forms.Label lbl_yFloorValue;
         private System.Windows.Forms.CheckBox box_antiAfk;
