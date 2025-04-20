@@ -214,7 +214,7 @@ namespace SWTOR_External
         public Form1()
         {
             InitializeComponent();
-                                      // Thread aobThread = new Thread(scanAOB) { IsBackground = true };
+            Thread aobThread = new Thread(scanAOB) { IsBackground = true };
             Thread NumpadTeleportThread = new Thread(teleportNumpad) { IsBackground = true };
             Thread HotkeyThread = new Thread(hotkeysFunction) { IsBackground = true };
             //Thread pvpThread = new Thread(checkForPvP) { IsBackground = true , Priority = ThreadPriority.Lowest};
