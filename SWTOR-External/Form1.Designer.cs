@@ -666,7 +666,7 @@
             // box_flyMode
             // 
             this.box_flyMode.AutoSize = true;
-            this.box_flyMode.Cursor = System.Windows.Forms.Cursors.No;
+            this.box_flyMode.Cursor = System.Windows.Forms.Cursors.Default;
             this.box_flyMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.box_flyMode.Location = new System.Drawing.Point(6, 49);
             this.box_flyMode.Name = "box_flyMode";
